@@ -1,0 +1,648 @@
+*{
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: azure;
+}
+
+header{
+width: 100%;
+height: 250px;
+position: relative;
+}
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(39, 124, 236);
+    
+} 
+
+#titulo{
+    font-size: 30px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 80px;
+
+}
+
+#logo{
+ width: 15%;
+ margin-top: 10px;
+ justify-content: flex-end;
+ margin-right: 12%;
+ float: right;
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-self: center;
+    align-content: center;
+    background-color: rgb(54, 64, 199); 
+    height: 54px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+.boton{
+    width: 100%;
+    height: 34px;
+    background-color:rgb(54, 64, 199); 
+    display: inline;
+    margin-left: 50px;
+    padding: 10px;
+    color: white;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.40s;
+    text-decoration: none;
+ }
+
+ .boton:hover{
+    background-color: rgb(39, 124, 236);
+ }
+
+ .botonpage{
+    width: 100%;
+    height: 34px;
+    background-color: rgb(39, 124, 236);
+    display: inline;
+    margin-left: 50px;
+    padding: 10px;
+    color: white;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.40s;
+    text-decoration: none;
+ }
+
+.img{
+    width: 100%;
+}
+
+.com {
+    width: 100%;
+    color: rgb(39, 124, 236);
+    font-size: 40px;
+    padding-top: 15px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center
+
+}
+
+#contenedor{
+    width: 100%;
+    height: 400px;
+
+}
+
+#contenedortabla{
+    width: 100%;
+    height: 80px;
+
+}
+
+#datas { 
+    width: 50%;
+    height: 150px;
+    margin-left: 2%;
+    margin-top: 5px;
+    margin-right: 400px;
+    display: inline-block;
+    float: right;
+}
+
+.par4{
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5px;
+}
+
+.par5{
+    font-size: 20px;
+    margin-bottom: 2%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.par6{
+    font-size: 20px;
+    margin-top: 7%;
+    margin-bottom: 1px;
+}
+
+.par7{
+    font-size: 20px;
+    margin-bottom: 7%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.par8{
+    font-size: 20px;
+    margin-top: 3%;
+    margin-bottom: 1px;
+}
+
+.par9{
+    font-size: 20px;
+    margin-bottom: 7%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+#logo2{
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #logo3{
+    width: 15%;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .par10{
+    font-size: 20px;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.par11{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.span{
+    color:rgb(54, 64, 199); 
+    text-decoration: underline rgb(54, 64, 199);
+}
+
+
+#logo4{
+    width: 15%;
+    margin-top: -150px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #info { 
+    width: 50%;
+    height: 150px;
+    margin-top: 5px;
+    margin-right: 680px;
+    display: inline-block;
+    float: right;
+}
+
+.par12{
+    font-size: 20px;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.par13{
+    font-size: 20px;
+    margin-bottom: 6px;
+    font-style: italic;
+    text-decoration: underline black;
+}
+
+#cajatablas{
+width: 100%;
+height: 600px;
+margin-top: 80px;
+display: flex;
+
+}
+
+table td:hover {
+    background-color: rgba(33, 226, 65, 0.616);
+  }
+
+
+.tabla{
+    
+    width:37%;
+    height: 300px;
+    margin-left: 150px;
+    display: flexbox;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+  }
+
+  .tabla a:link, .tabla a:visited {
+    color: black;
+}
+
+
+  .tabla2{
+    width:30%;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tablaform{
+    margin-bottom: 50px;
+}
+
+#cajatabla3{
+width: 100%;
+height: 500px;
+margin-bottom: 100px;
+display: flex;
+}
+
+.tabla3{
+    background: rgb(54, 64, 199); 
+    width:40%;
+    height: 300px;
+    margin-left: 100px;
+    display: flex;
+    display: inline;
+    margin-top: -10px;
+}
+
+
+iframe{
+width: 500px;
+height: 500px;
+margin-left: 130px;
+margin-top: -50px;
+
+}
+
+thead{
+    background-color: rgb(33, 226, 65);
+}
+
+
+
+#info2 { 
+    width: 100%;
+    height: 350px;
+    margin-top: -152px;
+    display: inline-block;
+    margin-bottom: 50p;</span>
+}
+
+
+.par14{
+    font-size: 20px;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 100px;
+    
+}
+
+.par15{
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-left: 100px;
+
+}
+
+.par16{
+    font-size: 20px;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 100px;
+    
+}
+
+.par17{
+    font-size: 20px;
+    margin-bottom: 6px;
+    display: inline;
+    margin-right: 400px;
+    margin-left: 100px;
+}
+
+.par18{
+    font-size: 20px;
+    margin-bottom: 6px;
+    display: inline;
+    margin-left: 100px;
+}
+
+
+#rules{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rules2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.par19{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 16px;
+
+}
+
+.par20{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.par21{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section{
+    margin-left: 13%;
+    width: 70%;
+  text-align: justify;
+}
+
+.parnegrita{
+    font-weight: bold;
+}
+
+.space{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.span2{
+    font-weight: bold;
+}
+
+#logo5{
+    width: 15%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+   }
+
+   fieldset{
+       width: 40%;
+       margin-bottom: 20px;
+       margin-left: 400px;
+
+   }
+#names{
+   display: flex;
+   margin-top: 20px;
+}
+
+#lastname {
+    margin-left: 70px;
+}
+
+#adress{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#adress2{
+    width: 75%;
+}
+
+#city{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+ }
+
+ #city2{
+    width: 200px;
+ }
+
+ #zip {
+    margin-left: 80px;
+   
+}
+
+#zip2 {
+    width: 192px;
+   
+}
+
+#dates{
+    display: flex;
+}
+#genero{
+
+margin-left: 85px;
+margin-top: -15px;
+
+}
+
+#parent{
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#phone{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#mail{
+    width: 205px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#contactform{
+    display: flex;
+    width: 100%;
+}
+
+#first{
+    height: 100px;
+    display: block;
+    width: 50%;
+}
+
+#first2{
+    height: 100px;
+    display: block;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: -65px;
+}
+
+#second{
+    height: 100px;
+    display: block;
+    width: 50%;
+}
+
+#second2{
+    height: 90px;
+    display: block;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: -65px;
+}
+
+#position{
+    height: 100px;
+    display: block;
+    width: 50%;
+}
+
+#position2{
+    height: 90px;
+    display: block;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+#position3{
+    height: 100px;
+    display: block;
+    width: 50%;
+}
+
+#position4{
+    height: 70px;
+    display: block;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+#uniform{
+    height: 200px;
+    display: block;
+    width: 50%;
+}
+
+#uniform2{
+    height: 70px;
+    display: block;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: -80px;
+}
+
+#uniform3{
+    height: 300px;
+    display: block;
+    width: 50%;
+    margin-bottom: 120px;
+}
+
+#size{
+margin-top: 1px;
+}
+
+#uniform4{
+    height: 100px;
+    display: block;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: -385px;
+}
+
+#uniform0{
+    margin-top: 20px;
+    }
+    
+.permision{
+    width: 80%;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+#permision2{
+    width: 80%;
+    text-align: justify;
+    margin-left: 50px;
+    text-decoration: underline;
+    margin-top: 40px;
+
+    }
+    #signature{
+        display: flex;
+        display: flexbox;
+    }
+
+    #signature2{
+        margin-left: 50px;
+        width: 50%;
+    }
+
+    #date2{
+margin-left: 50px;
+    }
+
+    #sign{
+        width: 500px;
+    }
+
+    #formtit{
+        width: 80%;
+        text-align: justify;
+        margin-left: 500px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-size: 50px;
+    }
+
+.submit{
+background-color:rgb(54, 64, 199); 
+width: 400px;
+margin-left: 540px;
+margin-top: 30px;
+border-radius: 50px;
+border: none;
+color: white;
+font-size: 20px;
+transition: 0.35s;
+
+}
+
+.submit:hover{
+    background-color:  rgb(39, 124, 236);
+}
+
+#submitcaja{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-top: 50px;
+}
